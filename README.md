@@ -34,8 +34,8 @@ docker-compose run --rm node sh -c 'npx create-react-app app --template typescri
 ```
 新規作成でなぜかtypescriptが動かないので、commandのコメントアウト後、4.5にて下記実行後、再起動
 ```
-cd app && yarn add typescript && npm i react-scripts && npm i --save-dev @types/react-dom
-// web-vitalsも入れろと怒られるので、web-vitalsの記述は削除する
+cd app && yarn add typescript && npm i react-scripts
+// web-vitalsも入れろと怒られるので、web-vitalsの記述は削除する。tsconfigはpopularのをコピー&ペースト。
 ```
 
 4. docker起動(port:3000が必要)
