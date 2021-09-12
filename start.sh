@@ -1,2 +1,2 @@
 #!/bin/sh
-cd popular && yarn start
+cd app && yarn start
