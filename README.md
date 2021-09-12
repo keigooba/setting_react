@@ -40,7 +40,7 @@ cd app && yarn add typescript && npm i react-scripts
 
 4. docker起動(port:3000が必要)
 ```
-docker-compose up -d
+docker-compose up
 ```
 5. dockerコンテナに入る
 ```
